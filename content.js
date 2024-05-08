@@ -3,8 +3,8 @@ console.log("youtube ad skipper on");
 class YoutubeSkipper {
   constructor() {
     this.vidSelectors = [".video-stream"];
-    this.adSelectors = [".ytp-ad-image", ".ytp-ad-preview-container"];
-    this.adClick = [".ytp-ad-skip-button", ".ytp-ad-skip-button-modern"];
+    this.adSelectors = [".ytp-ad-image", ".ytp-ad-preview-container", '.ytp-ad-player-overlay-layout'];
+    this.adClick = [".ytp-ad-skip-button", ".ytp-ad-skip-button-modern", '.ytp-skip-ad-button'];
     this.adOverlay = [".ytp-ad-overlay-close-button"];
     this.contentWarningButton = [
       "#button.yt-player-error-message-renderer button",
